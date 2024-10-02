@@ -1,6 +1,7 @@
 #!/bin/bash
 
-API_URL="http://localhost:8181/api/employees/"
-RESPONSE=$(curl -s -X GET $API_URL)
+RESPONSE=$(curl -X GET --header "Accept: */*" "http://localhost:8181/api/employees/")
 
 echo "API Response: $RESPONSE"
+
+exit
