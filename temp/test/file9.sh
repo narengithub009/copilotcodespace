@@ -8,7 +8,7 @@ if [ -z "$1" ]; then
        exit 1
 fi
 
-DIR=/workspaces/copilotcodespace/temp/test
+DIR=$1
 
 if [ -d "DIR" ]; then
 	echo "Error: $DIR is not a valid directory."
