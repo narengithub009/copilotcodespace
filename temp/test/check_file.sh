@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#THis method is to verify the file path exists or not!
 set -e
 check_file(){
 	
