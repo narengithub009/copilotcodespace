@@ -2,7 +2,7 @@
 
 FILE="/workspaces/copilotcodespace/temp/file.txt"
 
-if [ -e "$FILE" ]; then
+if [ -f "$FILE" ]; then
 	echo "The File exists"
 else
 	echo "File doesn't exists"
